@@ -20,7 +20,7 @@ function startTimer() {
 				var chessxml;
 				var xhr = new XMLHttpRequest();
 				//xhr.open('get', 'http://ceit.aut.ac.ir/~sepehr/Saba/chess2.xml', false);
-				xhr.open('get', 'http://ie.ce-it.ir/hw3/xml/chess.xml', false);
+				xhr.open('get', 'xml/chess.xml', false);
 				
 					xhr.send();
 				chessxml = xhr.responseXML;
