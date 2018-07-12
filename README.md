@@ -1,0 +1,1 @@
+Extension Allow-Control-Allow-Origin: * from google chrome have to be enabled in order to play the games
