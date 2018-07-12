@@ -3,7 +3,7 @@ var homexml;
 
 function init() {
 	var xhr = new XMLHttpRequest();
-	xhr.open('get', 'http://ie.ce-it.ir/hw3/xml/home.xml', false);
+	xhr.open('get', 'xml/home.xml', false);
 	xhr.send();
 	homexml = xhr.responseXML;
 	home_xml_processor();

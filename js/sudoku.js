@@ -9,7 +9,7 @@ function startTimer() {
 		if (sudokuOfXML != null) {
 			document.querySelector("#sudoku-block").onclick = function () {
 
-				var xml = getXML('http://ie.ce-it.ir/hw3/xml/sudoku.xml');
+				var xml = getXML('xml/sudoku.xml');
 				var xsl = getXML("js/sudoku.xsl");
 				displayResult(xml, xsl);
 
